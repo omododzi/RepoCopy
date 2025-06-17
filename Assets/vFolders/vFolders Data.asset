@@ -15,6 +15,15 @@ MonoBehaviour:
   folderDatas_byGuid:
     keys:
     - 709f11a7f3c4041caa4ef136ea32d874
+    - e163bf559c5734147af2b85eee9857b8
+    - e3632ee19ead563479d057eb63c9f534
+    - b52152f678a480244b408e1b665643ab
     values:
     - colorIndex: 0
       iconNameOrGuid: Settings Icon
+    - colorIndex: 0
+      iconNameOrGuid: cs Script Icon
+    - colorIndex: 0
+      iconNameOrGuid: PrefabModel Icon
+    - colorIndex: 0
+      iconNameOrGuid: Mesh Icon

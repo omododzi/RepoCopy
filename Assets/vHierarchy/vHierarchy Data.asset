@@ -44,11 +44,14 @@ MonoBehaviour:
         - globalObjectIdString: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1411015267-0
         - globalObjectIdString: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2021926822154840307-1264749637
         - globalObjectIdString: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2021926822154840307-1832009468
+        - globalObjectIdString: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2004033236-0
         values:
         - colorIndex: 0
           iconNameOrGuid: Camera Icon
         - colorIndex: 0
           iconNameOrGuid: Light Icon
+        - colorIndex: 1
+          iconNameOrGuid: 
         - colorIndex: 1
           iconNameOrGuid: 
         - colorIndex: 1

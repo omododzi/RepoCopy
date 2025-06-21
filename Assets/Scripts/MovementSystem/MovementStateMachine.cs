@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace MovementSystem
 {
@@ -37,6 +38,7 @@ namespace MovementSystem
         public void FixedUpdate()
         {
             CurrentState?.FixedUpdate();
+            Debug.Log(CurrentState.GetType());
         }
     }
 }

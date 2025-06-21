@@ -4,9 +4,7 @@ namespace MovementSystem.States
 {
     public class IdleMovementState : MovemenState
     {
-        private Vector2 _direction;
-        
-        public IdleMovementState(MovementStateMachine stateMachine, Animator animator, float speed, Rigidbody rigidbody) : base(stateMachine, animator, speed, rigidbody)
+        public IdleMovementState(MovementStateMachine stateMachine, Animator animator, float speed, MovementConfig config, CharacterController characterController) : base(stateMachine, animator, speed, config, characterController)
         {
         }
 
@@ -15,22 +13,15 @@ namespace MovementSystem.States
             Animator.SetBool("IsIdle",true);
         }
 
-        public override void Update()
-        {
-            _direction = GetInput();
-        }
-
         public override void FixedUpdate()
         {
-            if (_direction.sqrMagnitude > 0 )
+            if (Input.GetAxis("Horizontal") > 0f || Input.GetAxis("Vertical") > 0f)
                 StateMachine.SetState<WalkMovementState>();
 
             if (Input.GetKey(KeyCode.LeftShift))
-                StateMachine.SetState<SlealthMovementState>();
-
-            if (Input.GetKeyDown(KeyCode.Space))
-                StateMachine.SetState<DashMovementState>();
-        
+                StateMachine.SetState<StealthMovementState>();
+            
+            Rotate();
         }
 
         public override void Exit()

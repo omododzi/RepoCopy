@@ -1,44 +1,75 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using MovementSystem.States;
+using RailsSystem;
 using UnityEngine;
 
 namespace MovementSystem
 {
-    [RequireComponent(typeof(Rigidbody))]
+    [RequireComponent(typeof(CharacterController))]
     public class Movement : MonoBehaviour
     {
-        [SerializeField] private Rigidbody _rigidbody;
-        [SerializeField] private Animator _animator;
+        public event Action TrolleyFounded;
+
+        [SerializeField] private TrolleyController _trolley;
+        private CharacterController _characterController;
+        private Animator _animator;
 
         private MovementConfig _config;
         private MovementStateMachine _stateMachine;
+        private LayerMask _layerMask;
 
         public void Initialize()
         {
+            _characterController = GetComponent<CharacterController>();
+            _animator = GetComponent<Animator>();
             _config = new MovementConfig();
             _stateMachine = new MovementStateMachine();
-            _rigidbody = GetComponent<Rigidbody>();
-            _animator = GetComponent<Animator>();
             
             //pzds potom pomenyuaem
-            _stateMachine.AddState(new IdleMovementState(_stateMachine,_animator,_config.IdleSpeed,_rigidbody));
-            _stateMachine.AddState(new WalkMovementState(_stateMachine,_animator, _config.WalkSpeed,_rigidbody));
-            _stateMachine.AddState(new RunMovementState(_stateMachine,_animator,_config.RunSpeed,_rigidbody));
-            _stateMachine.AddState(new DashMovementState(_stateMachine,_animator, _config.DashSpeed,_rigidbody));
-            _stateMachine.AddState(new SlealthMovementState(_stateMachine,_animator,_config.StealthSpeed,_rigidbody));
-            
+            _stateMachine.AddState(new IdleMovementState(_stateMachine,_animator,_config.IdleSpeed,_config,_characterController));
+            _stateMachine.AddState(new WalkMovementState(_stateMachine,_animator,_config.WalkSpeed,_config,_characterController));
+            _stateMachine.AddState(new StealthMovementState(_stateMachine,_animator,_config.StealthSpeed,_config,_characterController));
+            _stateMachine.AddState(new SeatMovementState(_stateMachine,_animator,_config.IdleSpeed,_config,_characterController));
+
             _stateMachine.SetState<IdleMovementState>();
         }
 
+        private void OnEnable()
+        {
+            _trolley.PlayerSeated += OnPlayerSeated;
+        }
+
+        private void OnDisable()
+        {
+            _trolley.PlayerSeated -= OnPlayerSeated;
+        }
+
+        private void OnPlayerSeated()
+        {
+            _stateMachine.SetState<SeatMovementState>();
+            Debug.Log("5");
+        }
 
         private void Update()
         {
-            _stateMachine?.Update();
+            _stateMachine.Update();
         }
 
         private void FixedUpdate()
         {
-            _stateMachine?.FixedUpdate();
+            _stateMachine.FixedUpdate();
+            
+        }
+
+        private void OnTriggerEnter(Collider collider)
+        {
+            if (collider.TryGetComponent(out TrolleyController trolley))
+            {
+                TrolleyFounded?.Invoke();
+                Debug.Log("1");
+            }
         }
     }
 }

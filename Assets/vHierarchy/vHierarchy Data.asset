@@ -18,6 +18,7 @@ MonoBehaviour:
     - 99c9720ab356a0642a771bea13969a05
     - 31fa5d1b4ed569c4580715c3058d04bf
     - 73004cc5b3e4d24469cc51bf53e95a79
+    - 95faa3e3f2be9b7478b1bd54a65af503
     values:
     - goDatas_byGlobalId:
         keys: []
@@ -151,6 +152,24 @@ MonoBehaviour:
         - colorIndex: 1
           iconNameOrGuid: 
         - colorIndex: 2
+          iconNameOrGuid: 
+        - colorIndex: 1
+          iconNameOrGuid: 
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-95faa3e3f2be9b7478b1bd54a65af503-1267874634-0
+        - globalObjectIdString: GlobalObjectId_V1-2-95faa3e3f2be9b7478b1bd54a65af503-977561207-0
+        - globalObjectIdString: GlobalObjectId_V1-2-95faa3e3f2be9b7478b1bd54a65af503-1987062904-0
+        - globalObjectIdString: GlobalObjectId_V1-2-95faa3e3f2be9b7478b1bd54a65af503-1874119104-0
+        - globalObjectIdString: GlobalObjectId_V1-2-95faa3e3f2be9b7478b1bd54a65af503-1401318308-0
+        values:
+        - colorIndex: 0
+          iconNameOrGuid: Camera Icon
+        - colorIndex: 0
+          iconNameOrGuid: Light Icon
+        - colorIndex: 1
+          iconNameOrGuid: 
+        - colorIndex: 1
           iconNameOrGuid: 
         - colorIndex: 1
           iconNameOrGuid: 

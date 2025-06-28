@@ -15,10 +15,15 @@ namespace RailsSystem
         {
             _validationWindow.Initialize();
         }
-
-        public void GenerateValidationWindow()
+        
+        public void ShowValidationWindow()
         {
-           _validationWindow.gameObject.SetActive(true);
+            _validationWindow.gameObject.SetActive(true);
+        }
+
+        public void HideValidationWindow()
+        {
+            _validationWindow.gameObject.SetActive(false);
         }
     }
 }

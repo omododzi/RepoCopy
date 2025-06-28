@@ -8,6 +8,8 @@ namespace RailsSystem
     public class ValidationWindow : MonoBehaviour
     {
         public event Action QueryAccepted;
+        
+        public bool IsAccepted => _isAccepted;
 
         [SerializeField] private Button _acceptButton;
         [SerializeField] private Button _rejectButton;
@@ -27,7 +29,6 @@ namespace RailsSystem
             gameObject.SetActive(false);
             _isAccepted = true;
             QueryAccepted?.Invoke();
-            Debug.Log("3");
         }
 
         private void RejectQuery()

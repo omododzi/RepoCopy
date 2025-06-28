@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< Updated upstream
 <module type="RIDER_MODULE" version="4">
+=======
+<module version="4">
+>>>>>>> Stashed changes
   <component name="NewModuleRootManager">
     <content url="file:///Applications/Unity/Hub/Editor/6000.1.3f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.accessibility" />
     <content url="file:///Applications/Unity/Hub/Editor/6000.1.3f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ai" />
@@ -36,8 +40,11 @@
     <content url="file:///Applications/Unity/Hub/Editor/6000.1.3f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.wind" />
     <content url="file:///Applications/Unity/Hub/Editor/6000.1.3f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr" />
     <content url="file://$MODULE_DIR$/../.." />
+<<<<<<< Updated upstream
     <content url="file://$USER_HOME$/Library/Unity/cache/packages/packages.unity.com/com.unity.collab-proxy@2.8.2" />
     <content url="file://$USER_HOME$/Library/Unity/cache/packages/packages.unity.com/com.unity.nuget.mono-cecil@1.11.4" />
+=======
+>>>>>>> Stashed changes
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="64acaef4-eeb8-4743-8e0c-535b5dc5d79c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RepoCopy/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RepoCopy/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RepoCopy/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RepoCopy/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Ground.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Ground.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Head.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Head.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Items.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Items/ItemConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Items/ItemConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Items/ItemGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Items/ItemGenerator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Items/ItemMode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Items/ItemMode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Items/ItemRarity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Items/ItemRarity.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralLight.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralLight.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/FlashLight.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/FlashLight/FlashLight.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/FlashLight/FlashLight.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/Inventory.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/Inventory/Inventory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/Inventory/Inventory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/Inventory/InventoryUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/Inventory/InventoryUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/Inventory/Slot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/Inventory/Slot.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/NightVisionGoggles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/NightVisionGoggles.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/VisionConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/VisionConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RepoCopy/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RepoCopy/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RepoCopy/.idea/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RepoCopy/.idea/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Road.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Road.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Path-Creator-master/Assets/PathCreator/Examples/Materials/Road Underside.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Path-Creator-master/Assets/PathCreator/Examples/Materials/Road Underside.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/ValidationPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/ValidationPanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/ValidationPanel.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/ValidationPanel.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Readme.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Readme.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bootstrap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementSystem.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementSystem/MovemenState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovemenState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementSystem/MovemenState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovemenState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementSystem/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem/Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementSystem/Movement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem/Movement.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementSystem/MovementConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem/MovementConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementSystem/MovementConfig.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem/MovementConfig.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementSystem/MovementStateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovementStateMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementSystem/MovementStateMachine.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovementStateMachine.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementSystem/States.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem/States.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementSystem/States/IdleMovementState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem/States/IdleMovementState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementSystem/States/IdleMovementState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem/States/IdleMovementState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementSystem/States/SeatMovementState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem/States/SeatMovementState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementSystem/States/SeatMovementState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem/States/SeatMovementState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementSystem/States/StealthMovementState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem/States/StealthMovementState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementSystem/States/StealthMovementState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem/States/StealthMovementState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementSystem/States/WalkMovementState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem/States/WalkMovementState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementSystem/States/WalkMovementState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem/States/WalkMovementState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RailsSystem/Trolley.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RailsSystem/Trolley.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RailsSystem/TrolleyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RailsSystem/TrolleyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RailsSystem/TrolleyUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RailsSystem/TrolleyUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RailsSystem/ValidationWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RailsSystem/ValidationWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/DefaultVolumeProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/DefaultVolumeProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/URP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/URP.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Снимок экрана 2025-06-21 в 16.33.18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Снимок экрана 2025-06-21 в 16.33.18.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5A41D6B7-1898-42EC-A409-FD0B1C3E3DCF/42/System.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3EB1E8D9-3CE2-426D-B2A4-EBD2552E6F64/80/3024c7ea/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/5A41D6B7-1898-42EC-A409-FD0B1C3E3DCF/8c/2cbbc59a/020000CFpdb.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/ThirdPersonMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3EB1E8D9-3CE2-426D-B2A4-EBD2552E6F64/9d/6f945ec9/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5A41D6B7-1898-42EC-A409-FD0B1C3E3DCF/55/0811a354/Void.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/68C7272A-A0CD-4A41-8359-7E3DFBB0A3D8/30/d1e1c1f9/Editor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5A41D6B7-1898-42EC-A409-FD0B1C3E3DCF/e2/6e5e0c72/Action.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/RailsSystem/TrolleyConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MovementSystem/States/RunMovementState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MovementSystem/States/StealthMovementState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/RailsSystem/TrolleyUI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Generator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MovementSystem/MovementConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DragAndDropSystem/Inventory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DragAndDropSystem/Slot.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Slot.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/RailsSystem/ValidationWindow.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MovementSystem/States/SeatMovementState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MovementSystem/States/IdleMovementState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MovementSystem/MovemenState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MovementSystem/Movement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/RailsSystem/Trolley.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/RailsSystem/TrolleyController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MovementSystem/States/WalkMovementState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/General/Item.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/General/ItemConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/General/Items/ItemMode.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/General/Items/ItemRarity.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/General/ItemGenerator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryUI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Inventory/InventoryUI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem/Movement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/General/Items/Item.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/General/Items/ItemConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/FlashLight/FlashLight.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/Inventory/Slot.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem/MovemenState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem/States/IdleMovementState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem/States/SeatMovementState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem/States/StealthMovementState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem/States/WalkMovementState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem/MovementConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/MovementSystem/MovementStateMachine.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MovemenState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MovementStateMachine.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/FindItem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/Inventory/InventoryUI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/Inventory/Inventory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/NightVisioncConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/General/Items/ItemGenerator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/FlashLight/FlashLight.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/VisionConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/NightVisionController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Bootstrap.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GeneralLight.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/FindingItemSystem/NightVisionGoggles.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="2ygcq8T0gRu3tuHDPEqknONA6Hc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64acaef4-eeb8-4743-8e0c-535b5dc5d79c" name="Default Changelist" comment="" />
+      <created>1750259848217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750259848217</updated>
+      <workItem from="1750259870823" duration="11177000" />
+      <workItem from="1750351178257" duration="3597000" />
+      <workItem from="1750356184667" duration="3910000" />
+      <workItem from="1750389776128" duration="615000" />
+      <workItem from="1750435443796" duration="6222000" />
+      <workItem from="1750445266703" duration="1387000" />
+      <workItem from="1750475709411" duration="12697000" />
+      <workItem from="1750499317565" duration="19361000" />
+      <workItem from="1750567996459" duration="7262000" />
+      <workItem from="1750695885732" duration="2577000" />
+      <workItem from="1750787830707" duration="2389000" />
+      <workItem from="1750932559764" duration="2010000" />
+      <workItem from="1750944239007" duration="10891000" />
+      <workItem from="1750990923112" duration="13339000" />
+      <workItem from="1751092845987" duration="5757000" />
+      <workItem from="1751103983614" duration="2699000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

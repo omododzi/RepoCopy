@@ -1,5 +1,4 @@
 using System;
-using MovementSystem;
 using PathCreation;
 using UnityEngine;
 
@@ -7,9 +6,9 @@ namespace RailsSystem
 {
     public class Trolley
     {
-        public event Action MovemenetStopped;
-            
-        public bool isEmpty => _isEmpty;
+        public bool IsEmpty => _isEmpty;
+
+        public bool IsStopped => _isStopped;
 
         private Transform _transform;
         private PathCreator _pathCreator;
@@ -18,7 +17,8 @@ namespace RailsSystem
         private TrolleyConfig _config;
         private float _moveSpeed;
         private bool _isEmpty;
-    
+        private bool _isStopped;
+
         public void Inilialize(PathCreator pathCreator,Transform transform)
         {
             _pathCreator = pathCreator;
@@ -34,6 +34,17 @@ namespace RailsSystem
             _transform.rotation = _pathCreator.path.GetRotationAtDistance(_distanceTravelled,EndOfPathInstruction.Stop);
         }
 
+        public bool StopMotion()
+        {
+            if (Math.Abs(_distanceTravelled - _pathCreator.path.length) <= 1f)
+            {
+                _moveSpeed = 0f;
+                _isStopped = true;
+            }
+
+            return _isStopped;
+        }
+
         public void SeatPlayer(Transform playerTransform)
         {
             _isEmpty = false;
@@ -43,8 +54,8 @@ namespace RailsSystem
         
         public void GetOffPlayer(Transform playerTransform)
         {
-            playerTransform.parent = null;
             _isEmpty = true;
+            playerTransform.parent = null;
         }
 
         public void StartMove()
@@ -52,11 +63,6 @@ namespace RailsSystem
             float startMoveSpeed = _config.StartMoveSpeed;
             float targetMoveSpeed = _config.MaxMoveSpeed;
             _moveSpeed = Mathf.Lerp(startMoveSpeed,targetMoveSpeed,_config.AccelerationTime);
-        }
-
-        private void CheckMovement()
-        {
-            
         }
     }
 }
